@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Ethical Apps</title>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; font-src 'self' https: data:; img-src 'self' https://avatars1.githubusercontent.com data:; object-src 'none'; script-src 'self'; style-src 'self' https://cdn.jsdelivr.net; upgrade-insecure-requests;">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; font-src 'self' https: data:; img-src 'self' https://avatars1.githubusercontent.com data:; object-src 'none'; script-src 'self'; style-src 'self' https://cdn.jsdelivr.net 'unsafe-inline'; upgrade-insecure-requests;">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" integrity="sha256-7r1ZNj8EdnSR8dBP5fMF3ugfcC0TsYDna+swAxoDNEk= sha384-HByMnalc86+Gq2W0g0FGgbdgaMi6ETsMwwCPKGr5wbhR5WzQI+zt5tjqlPPbU17v sha512-Ossox+zQgcVzvM5n6Sy+HlaEe59634rjxFa4DKS+4/PJY9irCoXx+eFFPrJnvpANAULCExc4VYvIo9gnCjVNMg=="
     crossorigin="anonymous">
@@ -22,6 +22,31 @@
   <meta name="twitter:site" content="@EthicalApps">
 
   <meta property="fb:app_id" content="220241538820509">
+
+  <style type="text/css">
+    .icon {
+      animation: fade-in-bottom 3s ease;
+      -webkit-animation: fade-in-bottom 3s ease;
+    }
+
+    @keyframes fade-in-bottom {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes fade-in-bottom {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
 </head>
 
 <body class="font-sans bg-grey-lightest">
@@ -29,7 +54,7 @@
   <header class="w-full bg-white p-3 border-b border-green-lightest">
     <div class="flex items-center justify-between md:w-4/5 md:mx-auto">
       <div class="flex items-center">
-        <img src="https://avatars1.githubusercontent.com/u/41168708?s=35&v=4" alt="Leaf Icon" title="Ethical Apps Icon" class="w-8"
+        <img src="https://avatars1.githubusercontent.com/u/41168708?s=35&v=4" alt="Leaf Icon" title="Ethical Apps Icon" class="icon w-8"
         />
         <h1 class="text-xl md:text-2xl ml-1 font-light">Ethical Apps</h1>
       </div>
