@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Ethical Apps</title>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; font-src 'self' https: data:; img-src 'self' https://avatars1.githubusercontent.com data:; object-src 'none'; script-src 'self'; style-src 'self' https://cdn.jsdelivr.net 'unsafe-inline'; upgrade-insecure-requests;">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; font-src 'self' https: data:; img-src 'self' https://images.ctfassets.net/ https://avatars1.githubusercontent.com data:; object-src 'none'; script-src 'self'; style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com/ 'unsafe-inline'; upgrade-insecure-requests;">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" integrity="sha256-7r1ZNj8EdnSR8dBP5fMF3ugfcC0TsYDna+swAxoDNEk= sha384-HByMnalc86+Gq2W0g0FGgbdgaMi6ETsMwwCPKGr5wbhR5WzQI+zt5tjqlPPbU17v sha512-Ossox+zQgcVzvM5n6Sy+HlaEe59634rjxFa4DKS+4/PJY9irCoXx+eFFPrJnvpANAULCExc4VYvIo9gnCjVNMg=="
     crossorigin="anonymous">
@@ -24,6 +24,8 @@
   <meta property="fb:app_id" content="220241538820509">
 
   <style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto');
+
     .icon {
       animation: fade-in-bottom 3s ease;
       -webkit-animation: fade-in-bottom 3s ease;
@@ -33,6 +35,7 @@
       from {
         opacity: 0;
       }
+
       to {
         opacity: 1;
       }
@@ -42,29 +45,30 @@
       from {
         opacity: 0;
       }
+
       to {
         opacity: 1;
       }
     }
   </style>
+
 </head>
 
-<body class="font-sans bg-grey-lightest">
+<body class="font-sans bg-grey-lightest leading-normal">
 
   <header class="w-full bg-white p-3 border-b border-green-lightest">
     <div class="flex items-center justify-between md:w-4/5 md:mx-auto">
       <div class="flex items-center">
-        <img src="https://avatars1.githubusercontent.com/u/41168708?s=35&v=4" alt="Leaf Icon" title="Ethical Apps Icon" class="icon w-8 h-8 md:w-10 md:h-10"
-        />
+        <img src="https://avatars1.githubusercontent.com/u/41168708?s=35&v=4" alt="Leaf Icon" title="Ethical Apps Icon"
+          class="icon w-8 h-8 md:w-10 md:h-10" />
         <h1 class="text-xl md:text-2xl ml-1 font-light">Ethical Apps</h1>
       </div>
       <div class="flex items-center">
         <a rel="me" href="https://twitter.com/EthicalApps" class="text-grey-darkest hover:text-green">
-          <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-            x="0px" y="0px" viewBox="0 0 430.117 430.117" xml:space="preserve">
+          <svg class="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1" x="0px" y="0px" viewBox="0 0 430.117 430.117" xml:space="preserve">
             <title>Twitter Icon</title>
-            <path d="M381.384,198.639c24.157-1.993,40.543-12.975,46.849-27.876 c-8.714,5.353-35.764,11.189-50.703,5.631c-0.732-3.51-1.55-6.844-2.353-9.854c-11.383-41.798-50.357-75.472-91.194-71.404 c3.304-1.334,6.655-2.576,9.996-3.691c4.495-1.61,30.868-5.901,26.715-15.21c-3.5-8.188-35.722,6.188-41.789,8.067 c8.009-3.012,21.254-8.193,22.673-17.396c-12.27,1.683-24.315,7.484-33.622,15.919c3.36-3.617,5.909-8.025,6.45-12.769   C241.68,90.963,222.563,133.113,207.092,174c-12.148-11.773-22.915-21.044-32.574-26.192 c-27.097-14.531-59.496-29.692-110.355-48.572c-1.561,16.827,8.322,39.201,36.8,54.08c-6.17-0.826-17.453,1.017-26.477,3.178 c3.675,19.277,15.677,35.159,48.169,42.839c-14.849,0.98-22.523,4.359-29.478,11.642c6.763,13.407,23.266,29.186,52.953,25.947   c-33.006,14.226-13.458,40.571,13.399,36.642C113.713,320.887,41.479,317.409,0,277.828 c108.299,147.572,343.716,87.274,378.799-54.866c26.285,0.224,41.737-9.105,51.318-19.39 C414.973,206.142,393.023,203.486,381.384,198.639z"
-            />
+            <path d="M381.384,198.639c24.157-1.993,40.543-12.975,46.849-27.876 c-8.714,5.353-35.764,11.189-50.703,5.631c-0.732-3.51-1.55-6.844-2.353-9.854c-11.383-41.798-50.357-75.472-91.194-71.404 c3.304-1.334,6.655-2.576,9.996-3.691c4.495-1.61,30.868-5.901,26.715-15.21c-3.5-8.188-35.722,6.188-41.789,8.067 c8.009-3.012,21.254-8.193,22.673-17.396c-12.27,1.683-24.315,7.484-33.622,15.919c3.36-3.617,5.909-8.025,6.45-12.769   C241.68,90.963,222.563,133.113,207.092,174c-12.148-11.773-22.915-21.044-32.574-26.192 c-27.097-14.531-59.496-29.692-110.355-48.572c-1.561,16.827,8.322,39.201,36.8,54.08c-6.17-0.826-17.453,1.017-26.477,3.178 c3.675,19.277,15.677,35.159,48.169,42.839c-14.849,0.98-22.523,4.359-29.478,11.642c6.763,13.407,23.266,29.186,52.953,25.947   c-33.006,14.226-13.458,40.571,13.399,36.642C113.713,320.887,41.479,317.409,0,277.828 c108.299,147.572,343.716,87.274,378.799-54.866c26.285,0.224,41.737-9.105,51.318-19.39 C414.973,206.142,393.023,203.486,381.384,198.639z" />
           </svg>
         </a>
 
@@ -72,8 +76,7 @@
           <svg class="ml-3 w-5 h-5 fill-current" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
             x="0px" y="0px" viewBox="0 0 430.113 430.114" xml:space="preserve">
             <title>Facebook Icon</title>
-            <path d="M158.081,83.3c0,10.839,0,59.218,0,59.218h-43.385v72.412h43.385v215.183h89.122V214.936h59.805 c0,0,5.601-34.721,8.316-72.685c-7.784,0-67.784,0-67.784,0s0-42.127,0-49.511c0-7.4,9.717-17.354,19.321-17.354 c9.586,0,29.818,0,48.557,0c0-9.859,0-43.924,0-75.385c-25.016,0-53.476,0-66.021,0C155.878-0.004,158.081,72.48,158.081,83.3z"
-            />
+            <path d="M158.081,83.3c0,10.839,0,59.218,0,59.218h-43.385v72.412h43.385v215.183h89.122V214.936h59.805 c0,0,5.601-34.721,8.316-72.685c-7.784,0-67.784,0-67.784,0s0-42.127,0-49.511c0-7.4,9.717-17.354,19.321-17.354 c9.586,0,29.818,0,48.557,0c0-9.859,0-43.924,0-75.385c-25.016,0-53.476,0-66.021,0C155.878-0.004,158.081,72.48,158.081,83.3z" />
           </svg>
         </a>
 
@@ -107,26 +110,43 @@
         <a rel="me" href="https://medium.com/ethicalapps" class="text-grey-darkest hover:text-green">
           <svg class="ml-3 w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
             <title>Medium Icon</title>
-            <path d="M24 24h-24v-24h24v24zm-4.03-5.649v-.269l-1.247-1.224c-.11-.084-.165-.222-.142-.359v-8.998c-.023-.137.032-.275.142-.359l1.277-1.224v-.269h-4.422l-3.152 7.863-3.586-7.863h-4.638v.269l1.494 1.799c.146.133.221.327.201.523v7.072c.044.255-.037.516-.216.702l-1.681 2.038v.269h4.766v-.269l-1.681-2.038c-.181-.186-.266-.445-.232-.702v-6.116l4.183 9.125h.486l3.593-9.125v7.273c0 .194 0 .232-.127.359l-1.292 1.254v.269h6.274z"
-            />
+            <path d="M24 24h-24v-24h24v24zm-4.03-5.649v-.269l-1.247-1.224c-.11-.084-.165-.222-.142-.359v-8.998c-.023-.137.032-.275.142-.359l1.277-1.224v-.269h-4.422l-3.152 7.863-3.586-7.863h-4.638v.269l1.494 1.799c.146.133.221.327.201.523v7.072c.044.255-.037.516-.216.702l-1.681 2.038v.269h4.766v-.269l-1.681-2.038c-.181-.186-.266-.445-.232-.702v-6.116l4.183 9.125h.486l3.593-9.125v7.273c0 .194 0 .232-.127.359l-1.292 1.254v.269h6.274z" />
           </svg>
         </a>
       </div>
     </div>
   </header>
 
-  <div class="p-4 md:w-1/2 md:mx-auto mt-8">
-    <h2 class="text-2xl md:text-3xl border-l border-green-lighter p-3 font-light leading-normal bg-white">
-      Making free, open software with a focus on doing the right thing. Offering an alternative.
-    </h2>
+  <div class="bg-green py-4 px-2 md:px-20 md:py-12 text-center text-white leading-tight relative z-10">
+    <div class="absolute pin" style="opacity:.2; z-index:-1; background-image:url('//images.ctfassets.net/03o2z9yow9ng/3ytDcKXgbususasYEsM44e/c965d708c21b9f69de309249671a0355/alternative.jpg?w=560&amp;h=200&amp;fit=fill'); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+
+    <div class="mx-2 md:w-2/3 md:mx-auto" style="font-family: 'Roboto', sans-serif;">
+      <h1 class="text-3xl md:text-5xl my-4 font-bold md:w-4/5 md:mx-auto">Free, Open software</h1>
+      <h2 class="text-xl md:text-2xl my-6 font-medium">Offering an alternative to closed
+        platforms and promoting self-ownership of content.</h2>
+    </div>
+  </div>
+
+  <div class="px-4 md:p-6 md:w-3/5 md:mx-auto md:mb-12" style="font-family: 'Open Sans', sans-serif;">
+    <div class="border-b-2 border-green-lightest my-6 md:my-10 pb-4">
+      <h2 class="text-center text-xl md:text-3xl font-bold w-4/5 mx-auto">What are we are doing</h2>
+    </div>
+
+    <div class="text-base md:text-xl my-4 font-light">
+      <p class="mb-6">We have decades of experience building digital products and have decided to put that experience
+        to use building beautiful, secure applications for everyone to use.</p>
+      <p class="mb-6">Our aim is to provide a viable alterntive to the closed-network applications people use today.</p>
+    </div>
+
   </div>
 
   <footer class="text-center text-sm text-grey mt-8 mb-4">
     <div class="flex items-center justify-center">
       Thoughtfully made by
-      <a class="text-grey ml-1 no-underline hover:underline hover:text-green" href="https://www.ethicalapps.org">Ethical Apps</a>
-      <svg class="ml-1 w-3 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-        viewBox="0 0 505.923 505.923" enable-background="new 0 0 505.923 505.923">
+      <a class="text-grey ml-1 no-underline hover:underline hover:text-green" href="https://www.ethicalapps.org">Ethical
+        Apps</a>
+      <svg class="ml-1 w-3 fill-current" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1" viewBox="0 0 505.923 505.923" enable-background="new 0 0 505.923 505.923">
         <title>Ethical Apps Icon</title>
         <path d="m397.529,58.225c-37.359,0-72.27,11.235-100.957,32.49-25.401,18.819-44.228,44.84-51.653,71.391-8.498,30.386-1.593,57.841 18.431,75.96-6.892,12.102-13.298,24.592-18.372,36.707-4.66-11.592-10.865-21.973-17.882-31.224 9.949-15.808 11.327-35.12 3.511-54.911-7.36-18.635-22.266-35.818-41.974-48.386-21.258-13.556-46.288-20.721-72.383-20.721-33.485,0-67.836,12.078-99.338,34.928l-16.912,12.268 20.162,5.478c33.26,9.036 59.805,34.679 83.225,57.303 23.91,23.098 46.495,44.914 72.659,44.921 0.004,0 0.008,0 0.012,0 12.875,0 25.18-5.146 37.498-15.667 11.82,16.664 20.228,37.094 20.228,61.938v127h20c0,0 0.018-122.778 0.018-129.384 0-15.96 9.362-39.486 26.042-68.882 12.387,6.689 23.962,9.954 35.235,9.954 36.76,0 60.665-35.173 85.974-72.41 22.59-33.238 48.194-70.911 86.29-90.421l18.581-9.516-19.061-8.516c-30.153-13.47-60.209-20.3-89.334-20.3zm-221.471,196.203c-0.002,0-0.004,0-0.007,0-18.085-0.005-36.938-18.218-58.768-39.306-20.663-19.961-43.588-42.108-72.305-55.135 23.345-13.586 47.248-20.456 71.272-20.456 48.227,0 84.676,28.4 95.755,56.453 2.869,7.266 5.835,19.295 0.99,31.335-17.942-18.216-37.69-30.663-49.979-38.408-3.594-2.266-6.698-4.222-8.771-5.695l-11.59,16.299c2.526,1.797 5.85,3.892 9.697,6.316 12.659,7.979 31.868,20.09 48.451,37.523-8.638,7.436-16.76,11.074-24.745,11.074zm208.452-78.693c-23.213,34.155-43.261,63.652-69.432,63.652-7.676,0-15.897-2.358-24.996-7.165 0.894-1.439 1.797-2.886 2.722-4.348 19.815-31.329 39.938-56.696 40.139-56.949l-15.649-12.454c-1.715,2.155-22.828,28.846-43.394,61.905-12.095-13.03-15.666-31.622-9.72-52.884 6.252-22.354 22.397-44.482 44.298-60.708 17.584-13.028 47.309-28.56 89.051-28.56 20.458,0 41.53,3.779 62.861,11.258-32.716,22.745-55.46,56.209-75.88,86.253z"
           fill="#91DC5A" />
